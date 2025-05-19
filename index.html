@@ -11,36 +11,36 @@
      background-size: contain;
      border: solid #ffffff00 1px;
     }
-    .topscreen {
-      display: block;
+    #top {
       width: 400px;
       height: 240px;
+      margin-top: 47px;
+      
+    }
+    .screen {
+      display: block; 
       margin-left: auto;
       margin-right: auto;
-      margin-top: 47px;
       background-color: #a044a0
     }
-    .spacer {
-    height: 61px; 
-    }
-    .lowscreen {
+    #low {
       display: block;
       width: 320px;
       height: 240px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #a044a0
+    }
+    .spacer {
+    height: 61px; 
     }
   </style>
   </head>
   <body>
     <div class="ds">
-      <div class="topscreen">
+      <div class="screen" id="top">
       
       </div>
       <div class="spacer">
       </div>
-      <div class="lowscreen">
+      <div class="screen" id="low">
       
       </div>
     </div>
