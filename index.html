@@ -2,14 +2,16 @@
   <html>
   <head>
   <style>
-    .ds {
-     display: block;
-     width: 585px;
-     height: 626px;
-     margin: auto;
-     background-image: url("wungus.png");
-     background-size: contain;
-     border: solid #ffffff00 1px;
+    .ds:before {
+    position: absolute;
+    content: '';
+    width: 585px;
+    height: 626px;
+    margin: auto;
+    background-image: url("wungus.png");
+    background-size: contain;
+    border: solid #ffffff00 1px;
+    pointer-events: none;
     }
     #top {
       width: 400px;
